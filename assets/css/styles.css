@@ -25,3 +25,12 @@
     max-width: 100%;
     height: auto;
 }
+
+.top3-content {
+    max-width: 64rem;
+    display: flex;
+    height: 100vh;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
+}
