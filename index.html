@@ -13,15 +13,15 @@
 </head>
 <body>
     <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
-    <label for="close-menun" title="close-menu" class="close-menu-label"></label>
-    <aside class="menu">
+    <label for="close-menu" title="close-menu" class="close-menu-label"></label>
+    <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
-                <a href="#">logo</a>
+                <a href="#home">logo</a>
             </h1>
 
         <nav>
-            <ul>
+            <ul onclick="getElementById('close-menu').checked = false">
                 <li><a href="#intro">intro</a></li>
                 <li><a href="#top3">top 3</a></li>
                 <li><a href="#gallery">gallery</a></li>
@@ -227,6 +227,6 @@
         <footer id="footer" class="white-bg">
             <p><a href="https://github.com/BarvesCode">Feito com <span class="heart">♥</span> por Barves</a></p>
         </footer>
-
+        <a href="#" class="backtotop">❰</a>
 </body>
 </html>
